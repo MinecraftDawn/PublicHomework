@@ -1,6 +1,5 @@
 package homework;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Homework2 {

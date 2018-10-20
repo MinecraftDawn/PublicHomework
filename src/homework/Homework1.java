@@ -14,12 +14,12 @@ public class Homework1 {
 
         int copyNum = num;
         for (int i = 2; i <= copyNum; i++) {
-            if (num % i == 0){
-                while(true){
-                    if(copyNum % i == 0){
+            if (num % i == 0) {
+                while (true) {
+                    if (copyNum % i == 0) {
                         copyNum /= i;
                         str += i + " ";
-                    }else{
+                    } else {
                         break;
                     }
                 }
@@ -27,10 +27,10 @@ public class Homework1 {
             }
         }
 
-        if(prime){
-            System.out.println(num +"是質數");
-        }else{
-            System.out.println(num +"不是質數");
+        if (prime) {
+            System.out.println(num + "是質數");
+        } else {
+            System.out.println(num + "不是質數");
             System.out.println(str);
         }
 

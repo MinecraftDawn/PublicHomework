@@ -2,6 +2,7 @@ package homework;
 
 import java.util.Scanner;
 
+//將數字由小排到大
 public class Homework2 {
     public static void main(String args[]) {
         Scanner scanner = new Scanner(System.in);

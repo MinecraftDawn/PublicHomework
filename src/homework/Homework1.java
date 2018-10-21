@@ -2,6 +2,7 @@ package homework;
 
 import java.util.Scanner;
 
+//判斷輸入數字是不是整數
 public class Homework1 {
     private static String str = "";
 

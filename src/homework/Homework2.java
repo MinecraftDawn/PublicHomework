@@ -18,6 +18,7 @@ public class Homework2 {
             nums[i] = Integer.valueOf(tem[i]);
         }
 
+        //Bubble Sort
         for (int i = 0; i < nums.length; i++) {
             for (int j = 0; j < nums.length - 1; j++) {
                 if (nums[j] > nums[j + 1]) {
@@ -29,6 +30,7 @@ public class Homework2 {
         }
 
 
+        //印出數值
         for (int i = 0; i < nums.length; i++) {
             System.out.println(nums[i]);
         }

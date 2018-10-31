@@ -18,7 +18,6 @@ public class Homework3 {
             answer += num;
         }
 
-
         for (int i = 0; i < 10; i++) {
             int A = 0;
             int B = 0;
@@ -35,6 +34,10 @@ public class Homework3 {
                 }
             }
             System.out.println(A + "A; " + B + "B");
+            if (answer.equals(input)) {
+                System.out.println("答對了");
+                break;
+            }
         }
 
 

@@ -4,12 +4,15 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Homework3 {
+
     //猜數字，最多猜十次
     public static void main(String args[]) {
+
         Scanner scanner = new Scanner(System.in);
         String answer = "";
         String input;
         int num;
+
         for (int i = 0; i < 4; i++) {
             do {
                 num = (new Random()).nextInt(10);
@@ -33,11 +36,14 @@ public class Homework3 {
                     }
                 }
             }
+
             System.out.println(A + "A; " + B + "B");
+
             if (answer.equals(input)) {
                 System.out.println("答對了");
                 break;
             }
+
         }
 
 

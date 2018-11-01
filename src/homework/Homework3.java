@@ -13,6 +13,7 @@ public class Homework3 {
         String input;
         int num;
 
+        //生成隨機數字
         for (int i = 0; i < 4; i++) {
             do {
                 num = (new Random()).nextInt(10);
@@ -21,10 +22,12 @@ public class Homework3 {
             answer += num;
         }
 
+        //最多10次
         for (int i = 0; i < 10; i++) {
             int A = 0;
             int B = 0;
             input = scanner.nextLine();
+            //判斷幾A幾B
             for (int j = 0; j < 4; j++) {
                 if (input.charAt(j) == answer.charAt(j)) {
                     A++;

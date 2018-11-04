@@ -42,6 +42,7 @@ public class Homework3 {
 
             System.out.println(A + "A; " + B + "B");
 
+            //如果猜對就跳出迴圈
             if (answer.equals(input)) {
                 System.out.println("答對了");
                 break;
